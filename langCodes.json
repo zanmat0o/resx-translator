@@ -1,0 +1,37 @@
+[
+  {
+    "code": "nb-NO",
+    "language": "Norwegian",
+    "countryCode": "no"
+  },
+  {
+    "code": "sv-SE",
+    "language": "Swedish",
+    "countryCode": "sv"
+  },
+  {
+    "code": "da-DK",
+    "language": "Danish",
+    "countryCode": "da"
+  },
+  {
+    "code": "fi-FI",
+    "language": "Finnish",
+    "countryCode": "fi"
+  },
+  {
+    "code": "en-US",
+    "language": "English",
+    "countryCode": "en"
+  },
+  {
+    "code": "pl-PL",
+    "language": "Polish",
+    "countryCode": "pl"
+  },
+  {
+    "code": "nl-NL",
+    "language": "Dutch",
+    "countryCode": "nl"
+  }
+]
