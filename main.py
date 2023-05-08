@@ -4,12 +4,13 @@ import json
 from deep_translator import GoogleTranslator
 
 
-targetLang = None
-with open("langDisplayNames.json") as json_file:
-    json_data = json.loads(json_file.read())
-    targetLang = st.selectbox("Select the language you want to translate to", json_data)
-
 file = st.file_uploader("Upload your .resx file")
+targetLang = None
+with open("langCodes.json") as json_file:
+    json_data = json.loads(json_file.read())
+    countryDisplayNames = [obj['language'] for obj in json_data]
+    targetLang = st.selectbox("Select the language you want to translate to", countryDisplayNames)
+
 def create_resx():
     currentBatchValues = ""
     batch_count = 30
