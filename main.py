@@ -1,9 +1,8 @@
 import xml.etree.ElementTree as ET
-from bs4 import BeautifulSoup, Tag
-
-import os, streamlit as st
-from deep_translator import GoogleTranslator
+import streamlit as st
 import json
+from deep_translator import GoogleTranslator
+
 
 targetLang = None
 with open("langDisplayNames.json") as json_file:
